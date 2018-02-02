@@ -1,13 +1,13 @@
 <section class="feactures">
 	<div class="container">
 		<div class="row">
-			<div class="col-12">
-				<div class="feacture">
+			<div class="col-12 col-lg-4">
+				<div class="feacture height-100">
 					<h2>CARACTERISTICAS</h2>
 					<span>Estas son nuestras principales caracteristicas</span>
 				</div>
 			</div>
-			<div class="col-12">
+			<div class="col-12 col-lg-4">
 				<div class="feacture">
 					<img src="<?php echo $route; ?>views/img/management.png">
 					<p>Completo Mantenimiento</p>
@@ -23,7 +23,7 @@
 					<p>Migracion Potente</p>
 				</div>
 			</div>
-			<div class="col-12 d-none">
+			<div class="col-12 col-lg-4 d-none d-lg-block">
 				<div class="feacture">
 					<img src="<?php echo $route; ?>views/img/speed.png">
 					<p>Velocidad De Servidor</p>

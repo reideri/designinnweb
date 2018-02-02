@@ -544,3 +544,163 @@ section.faqs .container .row .col-12 .question .answer {
 	font-size: 18px;
 }
 
+
+
+
+
+/* VIDEO SECTION */
+section.video {
+	width: 100%;
+}
+
+section.video img {
+	width: 100%;
+	vertical-align: top;
+}
+
+
+
+/* CERTIFICATE */
+section.certificated {
+	display: flex;
+	justify-content: center;
+	padding: 80px 0;
+}
+
+section.certificated img {
+	opacity: 0.5;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+	padding: 80px 0; 
+	padding-bottom: 0;
+	background-color: #3e244c;
+}
+
+footer section.navigate {
+	margin-bottom: 80px;
+}
+
+footer section.navigate .container .row .col-6 {
+	margin-bottom: 80px;
+}
+
+footer section.navigate .container .row .col-6 h3 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+footer section.navigate .container .row .col-6 ul li {
+	margin-bottom: 15px;
+}
+
+footer section.navigate .container .row .col-6 ul li a {
+	font-size: 18px;
+	font-weight: 300;
+	color: rgba(255,255,255,0.5);
+}
+
+footer section.navigate .container .row .col-6 ul li a:hover {
+	color: #fff;
+}
+
+footer section.copyright {
+	padding: 40px 0;
+	background-color: #352d39;
+	color: rgba(255,255,255,0.3);
+}
+
+footer section.copyright .container .row  p {
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	font-weight: 300;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+	.slider {
+		overflow: hidden;
+	}
+
+	.slider .container .row .slider-image {
+		position: absolute;
+		z-index: 5;
+		top: 80px;
+		display: flex;
+		justify-content: center;
+		left: 50%;
+	}
+
+	.slider .container .row .slider-description h2 {
+		margin-bottom: 60px;
+	}
+
+	.slider .container .row .slider-description p {
+		font-size: 24px;
+	}
+
+	.slider .container .row .col-12 img {
+		width: 500px;
+		height: 500px;
+	}
+
+
+	/*  FEACTURES */
+	.height-100 {
+		height: 100%;
+	}
+
+	section.feactures {
+		background-color: transparent;
+		padding: 0;
+		position: relative;
+		z-index: 15;
+	}
+
+	section.feactures .container {
+		padding: 20px 40px;
+		background-color: #fff;
+		box-shadow: 0 0 5px rgba(0,0,0,0.5);
+		position: absolute;
+		left: 8%;
+		top: -100px;
+	}
+
+
+	section.feactures .container .row .col-12 .feacture {
+		flex-flow: row wrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	section.feactures .container .row .col-12 .feacture img {
+		width: 30px;
+		height: 30px;
+		margin-right: 15px;
+	}
+
+
+
+	/* INFORMATION */
+	section.information {
+		padding-top: 160px;
+	}
+
+
+	/*FAQs*/
+	section.faqs .container .row .col-12 {
+		margin-bottom: 0;
+	}
+}
+

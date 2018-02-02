@@ -1,4 +1,4 @@
-<header class="header-active">
+<header>
 	<div class="container">
 		<nav>
 			<div class="row align-items-center">

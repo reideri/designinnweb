@@ -19,6 +19,9 @@
 	<?php include 'modules/portafolio.view.php'; ?>
 	<?php include 'modules/more.view.php'; ?>
 	<?php include 'modules/faqs.view.php'; ?>
+	<?php include 'modules/video.view.php'; ?>
+	<?php include 'modules/certificate.view.php'; ?>
+	<?php include 'modules/footer.view.php'; ?>
 	<script src="<?php echo $route; ?>views/js/main.js"></script> 
 </body>
 </html>

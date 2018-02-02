@@ -2,7 +2,7 @@
 	<div class="container">
 		<h2>PREGUNTAS FRECUENTES</h2>
 		<div class="row">
-			<div class="col-12">
+			<div class="col-12 col-lg-4">
 				<div class="question d-flex justify-content-center">
 					<div class="box">
 						<span class="faqs-box"></span>
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 
-			<div class="col-12">
+			<div class="col-12 col-lg-4">
 				<div class="question d-flex justify-content-center">
 					<div class="box">
 						<span class="faqs-box"></span>
@@ -85,7 +85,7 @@
 			</div>
 
 
-			<div class="col-12 margin-bottom-none">
+			<div class="col-12 col-lg-4 margin-bottom-none">
 				<div class="question d-flex justify-content-center">
 					<div class="box">
 						<span class="faqs-box"></span>
