@@ -379,3 +379,38 @@ section.portafolio .container .row .col-12 p {
 section.portafolio .container .row a {
 	margin: auto;
 }
+
+
+
+/* MORE ABOUT US */
+section.more-about {
+	padding: 80px 0;
+	background-color: #fff;
+}
+
+section.more-about .container h2 {
+	font-weight: 300;
+	color: #0d0d0d;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+section.more-about .container .row .col-12 {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+section.more-about .container .row .col-12 img {
+	margin-bottom: 25px;
+}
+
+section.more-about .container .row .col-12 h3 {
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+section.more-about .container .row .col-12 p {
+	font-weight: 300;
+}
+
