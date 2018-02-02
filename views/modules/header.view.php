@@ -1,11 +1,12 @@
-<header>
+<header class="header-active">
 	<div class="container">
 		<nav>
 			<div class="row align-items-center">
 				<div class="col-6">
 					<div class="brand">
 						<a href="<?php echo $route; ?>">
-							<img src="<?php echo $route; ?>views/img/logo.png" alt="Logo Designninweb" width="60">
+							<img src="<?php echo $route; ?>views/img/logo.png" alt="Logo Designninweb" width="60" class="img-logo">
+							<img src="<?php echo $route; ?>views/img/logo-inverse.png" alt="Logo Designninweb" width="60" class="img-inverse">
 						</a>
 							<span class="divider">ADVERTISING</span>
 					</div>
