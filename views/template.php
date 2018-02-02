@@ -16,6 +16,7 @@
 	<?php include 'modules/feactures.view.php'; ?>
 	<?php include 'modules/information.view.php'; ?>
 	<?php include 'modules/services.view.php'; ?>
+	<?php include 'modules/portafolio.view.php'; ?>
 	<script src="<?php echo $route; ?>views/js/main.js"></script> 
 </body>
 </html>

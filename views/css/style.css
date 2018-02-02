@@ -153,6 +153,7 @@ header .container nav .row .col-12 .container ul li a {
 
 .slider .container .row .col-12 img {
 	width: 200px;
+	height: 200px;
 }
 
 
@@ -283,4 +284,13 @@ section.services .container .row .col-12 article.service .feacture p {
 	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 20px;
+}
+
+
+
+
+/* PORTAFOLIO */
+section.portafolio {
+	background-color: #fffcf7;
+	padding: 80px 0;
 }
