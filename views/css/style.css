@@ -628,6 +628,37 @@ footer section.copyright .container .row  p {
 
 
 @media screen and (min-width: 992px){
+	header .container nav .row .menu-button {
+		display: none !important;
+	}
+
+	header .container nav .row .col-12 .container ul {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-end;
+	}
+
+	header .container nav .row .col-12 .container ul li {
+		display: block !important;
+	}
+
+	header .container nav .row .col-12 .container ul li a {
+		color: #fff;
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		padding: 0 15px;
+		align-items: center;
+		font-weight: 300;
+	}
+
+	.header-active .container nav .row .col-12 .container ul li a {
+		color: #525252;
+	}
+
+
+	/* SLIDER */
+
 	.slider {
 		overflow: hidden;
 	}
@@ -662,17 +693,21 @@ footer section.copyright .container .row  p {
 
 	section.feactures {
 		background-color: transparent;
+		width: 90%;
+		max-width: 1140px;
+		margin: auto;
 		padding: 0;
 		position: relative;
-		z-index: 15;
+		z-index: 8;
 	}
 
 	section.feactures .container {
+		width: 100%;
 		padding: 20px 40px;
 		background-color: #fff;
 		box-shadow: 0 0 5px rgba(0,0,0,0.5);
 		position: absolute;
-		left: 8%;
+		left: 0;
 		top: -100px;
 	}
 

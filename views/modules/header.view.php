@@ -2,7 +2,7 @@
 	<div class="container">
 		<nav>
 			<div class="row align-items-center">
-				<div class="col-6">
+				<div class="col-6 col-lg-4">
 					<div class="brand">
 						<a href="<?php echo $route; ?>">
 							<img src="<?php echo $route; ?>views/img/logo.png" alt="Logo Designninweb" width="60" class="img-logo">
@@ -17,13 +17,13 @@
 						<span class="line-button"></span>
 					</div>
 				</div>
-				<div class="col-12">
+				<div class="col-12 col-lg-8">
 					<div class="container">
 						<ul>
-							<li><a href="">Caracteristicas</a></li>
-							<li><a href="">Planes</a></li>
-							<li><a href="">Clientes</a></li>
-							<li><a href="">Contacto</a></li>	
+							<li><a href="">CARACTERISTICAS</a></li>
+							<li><a href="">PLANES</a></li>
+							<li><a href="">CLIENTES</a></li>
+							<li><a href="">CONTACTO</a></li>	
 						</ul>
 					</div>
 				</div>
