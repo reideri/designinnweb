@@ -36,6 +36,14 @@ ul, ol {
 	font-weight: 300;
 }
 
+.btn-large {
+	border: 0;
+	font-family: 'Lato', sans-serif;
+	padding: 13px 51px;
+	display: inline-block;
+	border-radius: 50px;
+}
+
 .btn-primary {
 	background-color: #6d435a;
 	color: #fff;
@@ -52,6 +60,19 @@ ul, ol {
 	background-color: #fff;
 	color: #525252;
 	border: 4px solid transparent;
+}
+
+.btn-outline-purple {
+	background-color: transparent;
+	color: #6d435a;
+	border: 3px solid #6d435a;
+	transition: all 0.5s ease;
+}
+
+.btn-outline-purple:hover {
+	background-color: #fff;
+	color: #6d435a;
+	border: 3px solid #6d435a;
 }
 
 .margin-bottom-none {
@@ -291,6 +312,70 @@ section.services .container .row .col-12 article.service .feacture p {
 
 /* PORTAFOLIO */
 section.portafolio {
-	background-color: #fffcf7;
+	background-color: #02c39a;
 	padding: 80px 0;
+	color: #fff;
+}
+
+section.portafolio h2 {
+	font-weight: 300;
+	font-size: 31px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+section.portafolio .container .row .col-12 {
+	margin-bottom: 80px;
+}
+
+section.portafolio .container .row .col-12 .image {
+	position: relative;
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+
+section.portafolio .container .row .col-12 .image:hover .caption {
+	opacity: 1;
+}
+
+section.portafolio .container .row .col-12 .image img {
+	width: 100%;
+	vertical-align: top;
+}
+
+section.portafolio .container .row .col-12 .image .caption {
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background-color: rgba(0,0,0, 0.7);
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 45px;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+section.portafolio .container .row .col-12 .image .caption img {
+	width: 50px;
+	height: 50px;
+	z-index: 10;
+	opacity: 0.3;
+}
+
+section.portafolio .container .row .col-12 h3 {
+	font-size: 20px;
+	margin: 25px 0;
+}
+
+section.portafolio .container .row .col-12 p {
+	font-weight: 300;
+	font-size: 18px;
+	text-align: justify;
+}
+
+section.portafolio .container .row a {
+	margin: auto;
 }
