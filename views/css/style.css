@@ -248,7 +248,6 @@ section.feactures .container .row .col-12 .feacture {
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 }
 
 section.feactures .container .row .col-12 .feacture h2 {
@@ -261,6 +260,7 @@ section.feactures .container .row .col-12 .feacture span {
 	font-weight: 300;
 	font-size: 18px;
 	color: #838383;
+	text-align: left;
 }
 
 section.feactures .container .row .col-12 .feacture img {
