@@ -1,5 +1,5 @@
 <div class="slider">
-	<img src="<?php echo $route; ?>/views/img/slider/bgSlider.png">
+	<img src="<?php echo $route; ?>/views/img/slider/bgSlider.png" class="img-slider-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-6 slider-description">
