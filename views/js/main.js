@@ -22,8 +22,19 @@ $(document).ready(function(){
 
 	/* FAQS */
 	$('.box').on('click', function(){
-		$(this).parent().children('.answer').slideToggle();
 		$(this).children().toggleClass('faqs-box-active');
+		$('.box').parent().children('.answer').removeClass('active');
+		$('.box').parent().children('.answer').toggleClass('focus');
+		$(this).parent().children('.answer').toggleClass('active');
+		$(this).parent().children('.answer').removeClass('focus');
+
+		var answer = $('.box').parent().find('.active');
+		if (answer) {
+			$('.box').parent().children('.active').slideToggle();
+			$('.box').parent().children('.focus').slideUp();
+			$('.focus').parent().find('.faqs-box-active').removeClass('faqs-box-active');
+		}
+
 	});
 
 
