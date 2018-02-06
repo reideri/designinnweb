@@ -663,7 +663,7 @@ footer section.copyright .container .row  p {
 		overflow: hidden;
 	}
 
-	slider img.img-slider-bg {
+	.slider img.img-slider-bg {
 		width: 100%;
 		vertical-align: top;
 	}
