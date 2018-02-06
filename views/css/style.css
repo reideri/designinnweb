@@ -653,7 +653,7 @@ footer section.copyright .container .row  p {
 	}
 
 	header .container nav .row .col-12 .container ul li a:hover {
-		box-shadow: 2px 0 0 #fff inset;
+		box-shadow: 0 2px 0 #fff inset;
 	}
 
 	.header-active .container nav .row .col-12 .container ul li a {
@@ -661,7 +661,7 @@ footer section.copyright .container .row  p {
 	}
 
 	.header-active .container nav .row .col-12 .container ul li a:hover {
-		box-shadow: 2px 0 0 #525252 inset;
+		box-shadow: 0 3px 0 #525252 inset;
 	}
 
 
