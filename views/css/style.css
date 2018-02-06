@@ -652,8 +652,16 @@ footer section.copyright .container .row  p {
 		font-weight: 300;
 	}
 
+	header .container nav .row .col-12 .container ul li a:hover {
+		box-shadow: 2px 0 0 #fff inset;
+	}
+
 	.header-active .container nav .row .col-12 .container ul li a {
 		color: #525252;
+	}
+
+	.header-active .container nav .row .col-12 .container ul li a:hover {
+		box-shadow: 2px 0 0 #525252 inset;
 	}
 
 
