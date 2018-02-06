@@ -11,7 +11,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -24,7 +24,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -37,7 +37,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -78,7 +78,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -107,7 +107,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>
@@ -120,7 +120,7 @@
 						¿Lorem ipsum dolor sit amet?
 					</div>
 
-					<div class="answer d-none">
+					<div class="answer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
 					</div>
 				</div>

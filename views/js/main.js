@@ -23,6 +23,7 @@ $(document).ready(function(){
 	/* FAQS */
 	$('.box').on('click', function(){
 		$(this).parent().children('.answer').slideToggle();
+		$(this).children().toggleClass('faqs-box-active');
 	});
 
 

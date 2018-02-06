@@ -520,6 +520,18 @@ section.faqs .container .row .col-12 .question .box .faqs-box:before {
 	transition: all 0.4s ease;
 }
 
+section.faqs .container .row .col-12 .question .box .faqs-box-active {
+	content: '';
+	position: absolute;
+	background-color: #fff;
+	width: 25px;
+	height: 1px;
+}
+
+section.faqs .container .row .col-12 .question .box .faqs-box-active:before {
+	transform: rotate(0deg);
+}
+
 section.faqs .container .row .col-12 .question .question-box {
 	width: 80%;
 	height: 50px;
@@ -542,6 +554,7 @@ section.faqs .container .row .col-12 .question .answer {
 	text-align: justify;
 	font-weight: 300;
 	font-size: 18px;
+	display: none;
 }
 
 

@@ -49,8 +49,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 d-flex align-items-center justify-content-center">
-					<img src="<?php echo $route; ?>views/img/logo.png" alt="Designninweb">
-					<img src="<?php echo $route; ?>views/img/fb.png" width="30" height="30" alt="Designninweb Facebooks">
+					<a href="<?php echo $route; ?>"><img src="<?php echo $route; ?>views/img/logo.png" alt="Designninweb"></a>
+					<a href="#"><img src="<?php echo $route; ?>views/img/fb.png" width="30" height="30" alt="Designninweb Facebooks"></a>
 				</div>
 				<div class="col-12"><p>Copyright &copy; DIW. Todos Los Derechos Reservados</p></div>
 			</div>
