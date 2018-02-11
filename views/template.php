@@ -15,28 +15,7 @@
 	<?php include 'modules/header.view.php'; ?>
 	<?php 
 
-		$routes = [];
-		$route = null;
-		if (isset($_GET['route'])) {
-			$routes = explode('/', $_GET['route']);
-			$item = 'route';
-			$value = $routes[0];
-
-			// URLS AMIGABLES DE SECTIONS
-			$sectionRoutes = SectionController::ctrShowSections($item, $value);
-
-			if ($routes[0] == $sectionRoutes['route']) {
-				$route = $routes[0];
-			}
-
-			if ($route != null) {
-				include "modules/faqs.view.php";
-			} else {
-				include "modules/more.view.php";
-			}
-
-
-		} else {
+	
 			include 'modules/slider.view.php';
 			include 'modules/feactures.view.php';
 			include 'modules/information.view.php';
@@ -47,7 +26,6 @@
 			include 'modules/video.view.php';
 			include 'modules/certificate.view.php';
 			include 'modules/footer.view.php';
-		}
 
 	 ?>
 	<script src="<?php echo $Route; ?>views/js/main.js"></script> 
