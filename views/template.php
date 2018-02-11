@@ -12,20 +12,17 @@
 	<title>Diseño Web | DesignningWeb</title>
 </head>
 <body>
-	<?php include 'modules/header.view.php'; ?>
-	<?php 
-
-	
-			include 'modules/slider.view.php';
-			include 'modules/feactures.view.php';
-			include 'modules/information.view.php';
-			include 'modules/services.view.php';
-			include 'modules/portafolio.view.php';
-			include 'modules/more.view.php';
-			include 'modules/faqs.view.php';
-			include 'modules/video.view.php';
-			include 'modules/certificate.view.php';
-			include 'modules/footer.view.php';
+	<?php include $Route.'views/modules/header.view.php'; ?>
+	<?php include $Route.'views/modules/slider.view.php'; ?>
+	<?php include $Route.'views/modules/feactures.view.php'; ?>
+	<?php include $Route.'views/modules/information.view.php'; ?>
+	<?php include $Route.'views/modules/services.view.php'; ?>
+	<?php include $Route.'views/modules/portafolio.view.php'; ?>
+	<?php include $Route.'views/modules/more.view.php'; ?>
+	<?php include $Route.'views/modules/faqs.view.php'; ?>
+	<?php include $Route.'views/modules/video.view.php'; ?>
+	<?php include $Route.'views/modules/certificate.view.php'; ?>
+	<?php include $Route.'views/modules/footer.view.php'; ?>
 
 	 ?>
 	<script src="<?php echo $Route; ?>views/js/main.js"></script> 
