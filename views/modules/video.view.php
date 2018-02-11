@@ -1,3 +1,3 @@
 <section class="video">
-	<img src="<?php echo $route; ?>views/img/video-section.png">
+	<img src="<?php echo $Route; ?>views/img/video-section.png">
 </section>

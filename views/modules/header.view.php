@@ -4,9 +4,9 @@
 			<div class="row align-items-center">
 				<div class="col-6 col-lg-4">
 					<div class="brand">
-						<a href="<?php echo $route; ?>">
-							<img src="<?php echo $route; ?>views/img/logo.png" alt="Logo Designninweb" width="60" class="img-logo">
-							<img src="<?php echo $route; ?>views/img/logo-inverse.png" alt="Logo Designninweb" width="60" class="img-inverse">
+						<a href="<?php echo $Route; ?>">
+							<img src="<?php echo $Route; ?>views/img/logo.png" alt="Logo Designninweb" width="60" class="img-logo">
+							<img src="<?php echo $Route; ?>views/img/logo-inverse.png" alt="Logo Designninweb" width="60" class="img-inverse">
 						</a>
 							<span class="divider">ADVERTISING</span>
 					</div>
@@ -17,13 +17,17 @@
 						<span class="line-button"></span>
 					</div>
 				</div>
+				<?php 
+					$item = null;
+					$value = null;
+					$sections = SectionController::ctrShowSections($item, $value);
+				 ?>
 				<div class="col-12 col-lg-8">
 					<div class="container">
 						<ul>
-							<li><a href="">CARACTERISTICAS</a></li>
-							<li><a href="">PLANES</a></li>
-							<li><a href="">CLIENTES</a></li>
-							<li><a href="">CONTACTO</a></li>	
+							<?php foreach ($sections as $section => $option): ?>
+								<li><a href="<?php echo $option['route']; ?>"><?php echo $option['section']; ?></a></li>	
+							<?php endforeach ?>
 						</ul>
 					</div>
 				</div>

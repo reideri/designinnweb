@@ -1,4 +1,4 @@
-<section class="faqs">
+<section class="faqs animated fadeIn">
 	<div class="container">
 		<h2>PREGUNTAS FRECUENTES</h2>
 		<div class="row">

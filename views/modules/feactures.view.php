@@ -9,33 +9,33 @@
 			</div>
 			<div class="col-12 col-lg-4">
 				<div class="feacture">
-					<img src="<?php echo $route; ?>views/img/management.png">
+					<img src="<?php echo $Route; ?>views/img/management.png">
 					<p>Completo Mantenimiento</p>
 				</div>
 
 				<div class="feacture">
-					<img src="<?php echo $route; ?>views/img/secure.png">
+					<img src="<?php echo $Route; ?>views/img/secure.png">
 					<p>Seguridad Garantizada</p>
 				</div>
 
 				<div class="feacture">
-					<img src="<?php echo $route; ?>views/img/migrate.png">
+					<img src="<?php echo $Route; ?>views/img/migrate.png">
 					<p>Migracion Potente</p>
 				</div>
 			</div>
 			<div class="col-12 col-lg-4 d-none d-lg-block">
 				<div class="feacture">
-					<img src="<?php echo $route; ?>views/img/speed.png">
+					<img src="<?php echo $Route; ?>views/img/speed.png">
 					<p>Velocidad De Servidor</p>
 				</div>
 
 				<div class="feacture">
-					<img src="<?php echo $route; ?>views/img/backups.png">
+					<img src="<?php echo $Route; ?>views/img/backups.png">
 					<p>Copia De Seguridad</p>
 				</div>
 
 				<div class="feacture">
-					<img src="<?php echo $route; ?>views/img/server.png">
+					<img src="<?php echo $Route; ?>views/img/server.png">
 					<p>Servidor Verificado</p>
 				</div>
 			</div>
