@@ -24,7 +24,6 @@
 	<?php include $Route.'views/modules/certificate.view.php'; ?>
 	<?php include $Route.'views/modules/footer.view.php'; ?>
 
-	 ?>
 	<script src="<?php echo $Route; ?>views/js/main.js"></script> 
 </body>
 </html>
