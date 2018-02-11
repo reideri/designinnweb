@@ -2,6 +2,6 @@
 
 	class RouteModel {
 		static public function Route(){
-			return 'https://www.designinnweb.herokuapp.com/';
+			return 'http://designinnweb.herokuapp.com/';
 		}
 	}
