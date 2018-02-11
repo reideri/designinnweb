@@ -17,17 +17,14 @@
 						<span class="line-button"></span>
 					</div>
 				</div>
-				<?php 
-					$item = null;
-					$value = null;
-					$sections = SectionController::ctrShowSections($item, $value);
-				 ?>
 				<div class="col-12 col-lg-8">
 					<div class="container">
 						<ul>
-							<?php foreach ($sections as $section => $option): ?>
-								<li><a href="<?php echo $option['route']; ?>"><?php echo $option['section']; ?></a></li>	
-							<?php endforeach ?>
+							<li><a href="#">Catacteristicas</a></li>	
+							<li><a href="#">Nosotros</a></li>	
+							<li><a href="#">Clientes</a></li>	
+							<li><a href="#">Servicios</a></li>	
+							<li><a href="#">Contacto</a></li>	
 						</ul>
 					</div>
 				</div>
