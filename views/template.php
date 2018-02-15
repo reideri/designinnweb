@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/themify-icons.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/style.css">
 	<script src="<?php echo $Route; ?>views/js/jquery.js"></script> 
+	<script src="<?php echo $Route; ?>views/js/jquery.easing.js"></script> 
 	<title>Diseño Web | DesignningWeb</title>
 </head>
 <body>

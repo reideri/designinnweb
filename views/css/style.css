@@ -677,52 +677,6 @@ section.servicios h4 {
 	margin-bottom: 40px;
 }
 
-section.servicios .container-fluid ul {
-	width: 400%;
-	overflow: hidden;
-	left: 0;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	position: absolute;
-}
-
-section.servicios .container-fluid ul li.item {
-	width: 25%;
-	padding: 10px;
-	display: inline-block;
-
-}
-
-section.servicios .container-fluid ul li.item .box {
-	width: 100%;
-	height: 400px;
-	margin: auto;
-	color: #525252;
-	padding: 20px;
-	background-color: #fff;
-	box-shadow: 0 0 4 rgba(0,0,0,0.4);
-}
-
-
-section.servicios .container-fluid .box-flechas {
-	width: 100%;
-	height: 700px;
-	position: absolute;
-	padding: 0 10px;
-	left: 0;
-	top: 100px;
-	display: flex;
-	justify-content: space-between;
-	flex-flow: row wrap;
-	align-items: center;
-}
-
-section.servicios .container-fluid .box-flechas .flechas {
-	color: #2176ff;
-	z-index: 100;
-	font-size: 30pt;
-}
 
 
 
