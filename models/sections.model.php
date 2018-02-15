@@ -10,7 +10,7 @@
 				$stmt->execute();
 				return $stmt->fetch();
 			} else {
-				$stmt = Conection::conect()->prepare("SELECT * FROM $table");
+				$stmt = Conection::conect()->prepare("SELECT * FROM $table ORDER BY id");
 				$stmt->execute();
 				return $stmt->fetchAll();
 			}

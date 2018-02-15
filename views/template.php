@@ -18,7 +18,7 @@
 
 		$routes = [];
 		$route = null;
-		if (isset($_GET['ruta'])) {
+		if (isset($_GET['route'])) {
 			$routes = explode('/', $_GET['route']);
 			$item = 'route';
 			$value = $routes[0];
@@ -29,8 +29,10 @@
 				$route = $routes[0];
 			}
 
+
+
 			if ($route != null) {
-				include 'modules/feactures.view.php';
+				include 'modules/faqs.view.php';
 			} else {
 				include 'modules/404.view.php';
 			}
