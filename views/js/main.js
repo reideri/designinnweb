@@ -1,5 +1,8 @@
 $(document).ready(function(){
 	/* HEADER */
+	$('#toggle-menu').on('click',function(){
+		$('#menu-links').slideToggle();
+	});
 
 
 	$(window).scroll(function(){

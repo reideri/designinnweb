@@ -13,11 +13,11 @@
 				</div>
 
 				<div class="col-6 menu-button d-flex justify-content-end">
-					<div class="toggle-menu d-flex align-items-center justify-content-center">
+					<div class="toggle-menu d-flex align-items-center justify-content-center" id="toggle-menu">
 						<span class="line-button"></span>
 					</div>
 				</div>
-				<div class="col-12 col-lg-8">
+				<div class="col-12 col-lg-8" id="menu-links">
 					<div class="container">
 						<ul>
 							<li><a href="#">Catacteristicas</a></li>	

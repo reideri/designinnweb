@@ -125,11 +125,12 @@ header .container nav .row .col-6 .toggle-menu .line-button:after {
 }
 
 header .container nav .row .col-12 {
-	background-color: transparent;
+	display: none;
+	background-color: #fff;
 }
 
 header .container nav .row .col-12 .container ul li {
-	display: none;
+	display: block;
 }
 
 header .container nav .row .col-12 .container ul li a {
@@ -651,6 +652,11 @@ footer section.copyright .container .row  p {
 @media screen and (min-width: 992px){
 	header .container nav .row .menu-button {
 		display: none !important;
+	}
+
+	header .container nav .row .col-12 {
+		display: block;
+		background-color: transparent;
 	}
 
 	header .container nav .row .col-12 .container ul {
