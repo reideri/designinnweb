@@ -42,4 +42,24 @@ $(document).ready(function(){
 
 
 
+	// Slider
+	var item = 0;
+
+	function avanzar(){
+		// AVANZAR
+		if (item == $('#slide ul li').length -1) {
+			item = 0;
+		} else {
+			item++
+		}
+
+		movimientoSlide(item);
+	}
+
+	function movimientoSlide(item){
+		$('#slide ul').animate({'left': item * -100 + '%'}, 1000, "easeOutQuart");
+	}
+
+
+
 });

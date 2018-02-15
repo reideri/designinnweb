@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/gridsystem.min.css"> 
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/animate.css">
+	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/themify-icons.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/style.css">
 	<script src="<?php echo $Route; ?>views/js/jquery.js"></script> 
 	<title>Diseño Web | DesignningWeb</title>
@@ -29,13 +30,8 @@
 				$route = $routes[0];
 			}
 
+			$servicios = RouteModel::Directory($route, 'servicios');
 
-
-			if ($route != null) {
-				include 'modules/faqs.view.php';
-			} else {
-				include 'modules/404.view.php';
-			}
 		} else {
 			 include 'modules/slider.view.php';
 			 include 'modules/feactures.view.php';
@@ -46,10 +42,11 @@
 			 include 'modules/faqs.view.php';
 			 include 'modules/video.view.php';
 			 include 'modules/certificate.view.php';
-			 include 'modules/footer.view.php';
 		}
 
 	 ?>
+
+	 <?php include 'modules/footer.view.php'; ?>
 
 
 
