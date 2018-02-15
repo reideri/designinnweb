@@ -20,11 +20,14 @@
 				<div class="col-12 col-lg-8" id="menu-links">
 					<div class="container">
 						<ul>
-							<li><a href="#">Catacteristicas</a></li>	
-							<li><a href="#">Nosotros</a></li>	
-							<li><a href="#">Clientes</a></li>	
-							<li><a href="#">Servicios</a></li>	
-							<li><a href="#">Contacto</a></li>	
+							<?php 
+								$item = null;
+								$value = null;
+								$sections = SectionController::ctrShowSections($item, $value); 
+							?>
+							<?php foreach ($sections as $section => $li): ?>
+								<li><a href="<?php echo $li['route']; ?>"><?php echo $li['section']; ?></a></li>
+							<?php endforeach ?>
 						</ul>
 					</div>
 				</div>

@@ -13,16 +13,43 @@
 </head>
 <body>
 	<?php include 'modules/header.view.php'; ?>
-	<?php include 'modules/slider.view.php'; ?>
-	<?php include 'modules/feactures.view.php'; ?>
-	<?php include 'modules/information.view.php'; ?>
-	<?php include 'modules/services.view.php'; ?>
-	<?php include 'modules/portafolio.view.php'; ?>
-	<?php include 'modules/more.view.php'; ?>
-	<?php include 'modules/faqs.view.php'; ?>
-	<?php include 'modules/video.view.php'; ?>
-	<?php include 'modules/certificate.view.php'; ?>
-	<?php include 'modules/footer.view.php'; ?>
+
+	<?php 
+
+		$routes = [];
+		$route = null;
+		if (isset($_GET['ruta'])) {
+			$routes = explode('/', $_GET['route']);
+			$item = 'route';
+			$value = $routes[0];
+
+			$components = SectionController::ctrShowSections($item, $value);
+
+			if ($routes[0] == $components['route']) {
+				$route = $routes[0];
+			}
+
+			if ($route != null) {
+				include 'modules/feactures.view.php';
+			} else {
+				include 'modules/404.view.php';
+			}
+		} else {
+			 include 'modules/slider.view.php';
+			 include 'modules/feactures.view.php';
+			 include 'modules/information.view.php';
+			 include 'modules/services.view.php';
+			 include 'modules/portafolio.view.php';
+			 include 'modules/more.view.php';
+			 include 'modules/faqs.view.php';
+			 include 'modules/video.view.php';
+			 include 'modules/certificate.view.php';
+			 include 'modules/footer.view.php';
+		}
+
+	 ?>
+
+
 
 	<script src="<?php echo $Route; ?>views/js/main.js"></script> 
 </body>
