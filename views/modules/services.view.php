@@ -1,5 +1,5 @@
 <section class="services">
-	<h2>CONOCE NUESTROS PLANES</h2>
+	<h2>CONOCE NUESTROS PLANES DE HOSTING</h2>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-lg-4">
