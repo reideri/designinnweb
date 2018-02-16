@@ -77,6 +77,29 @@ ul, ol {
 	border: 3px solid #6d435a;
 }
 
+.btn-outline-purple.purple:hover {
+	background-color: #6d435a;
+	color: #fff;
+	border: 3px solid #6d435a;
+}
+
+.btn-outline-gray {
+	background-color: #fff;
+	color: #7d7d7d;
+	font-size: 14px;
+	font-weight: 400;
+	border: 2px solid #c7c7c7;
+	transition: all 0.5s ease;
+}
+
+.btn-outline-gray:hover {
+	background-color: #6d435a;
+	color: #fff;
+	border: 2px solid #6d435a;
+}
+
+
+
 .margin-bottom-none {
 	margin-bottom: 0 !important;
 }
@@ -677,6 +700,59 @@ section.servicios h4 {
 	margin-bottom: 40px;
 }
 
+section.servicios .sideshow {
+	width: 100%;
+}
+
+section.servicios .slideshow .options {
+	background-color: #fff;
+	height: 400px;
+	padding: 20px;
+	color: #525252;
+	border: 1px solid transparent;
+}
+
+section.servicios .slideshow .options .container .row .col-12 h4 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+section.servicios .slideshow .options .container .row .col-12 h2 {
+	font-weight: 600;
+	color: #6d435a;
+	font-size: 40px;
+	text-align: center;
+}
+
+section.servicios .slideshow .options .container .row .col-12 h2 small {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+section.servicios .slideshow .options .container .row .col-12 ul li {
+	margin-bottom: 15px;
+}
+
+section.servicios .slideshow .options.slick-slide.slick-current.slick-center {
+	transform: scale(1.1);
+	transition: all 0.3s ease;
+	box-shadow: 0 0 30px rgba(0,0,0,0.2);
+	border: 1px solid rgba(82,82,82,.2);
+}
+
+
+section.servicios .slideshow .options.slick-slide.slick-current.slick-center .container .row .col-12 .btn-outline-gray {
+	background-color: #6d435a;
+	color: #fff;
+	border: 2px solid #6d435a;
+}
+
+section.servicios .slideshow .options.slick-slide.slick-current.slick-center .container .row .col-12 .btn-outline-gray:hover {
+	background-color: #fff;
+	color: #6d435a;
+	border: 2px solid #6d435a;
+}
 
 
 

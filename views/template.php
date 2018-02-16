@@ -8,9 +8,11 @@
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/gridsystem.min.css"> 
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/animate.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/themify-icons.css">
+	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/slick.css">
+	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/slick-theme.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/style.css">
 	<script src="<?php echo $Route; ?>views/js/jquery.js"></script> 
-	<script src="<?php echo $Route; ?>views/js/jquery.easing.js"></script> 
+	<script src="<?php echo $Route; ?>views/js/slick.min.js"></script> 
 	<title>Diseño Web | DesignningWeb</title>
 </head>
 <body>

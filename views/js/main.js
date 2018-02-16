@@ -44,31 +44,32 @@ $(document).ready(function(){
 
 
 	// SLIDER
-	$('.center').slick({
+	var options = $('.slideshow options');
+	$('.slideshow').slick({
 	  centerMode: true,
-	  centerPadding: '60px',
-	  slidesToShow: 3,
+	  slidesToShow: 5,
+	  infinite: false,
+	  arrows: true,
+	  accesibility: true,
 	  responsive: [
 	    {
 	      breakpoint: 768,
 	      settings: {
-	        arrows: false,
+	        arrows: true,
 	        centerMode: true,
-	        centerPadding: '40px',
 	        slidesToShow: 3
 	      }
 	    },
 	    {
 	      breakpoint: 480,
 	      settings: {
-	        arrows: false,
+	        arrows: true,
 	        centerMode: true,
-	        centerPadding: '40px',
 	        slidesToShow: 1
 	      }
 	    }
 	  ]
-	});
+});
 
 
 
