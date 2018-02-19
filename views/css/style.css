@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 
+html {
+	position: static;
+}
 
 body {
 	background-color: #f0f1f2;
@@ -534,6 +537,7 @@ section.faqs .container .row .col-12 .question .box {
 	height: 50px;
 	border: 1px solid #fff;
 	display: flex;
+	position: static;
 	justify-content: center;
 	align-items: center;
 }
@@ -609,10 +613,12 @@ section.video img {
 section.certificated {
 	display: flex;
 	justify-content: center;
+	flex-flow: row wrap;
 	padding: 80px 0;
 }
 
 section.certificated img {
+	width: 25%;
 	opacity: 0.5;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -666,6 +672,13 @@ footer section.copyright {
 footer section.copyright .container .row  p {
 	color: rgba(255,255,255,0.5);
 	text-align: center;
+	font-weight: 300;
+}
+
+footer section.copyright .container .row a.credits {
+	color: rgba(255,255,255,0.5);
+	text-align: center;
+	margin: auto;
 	font-weight: 300;
 }
 
@@ -884,6 +897,10 @@ section.servicios .slideshow .options.slick-slide.slick-current.slick-center .co
 	/*FAQs*/
 	section.faqs .container .row .col-12 {
 		margin-bottom: 0;
+	}
+
+	section.certificated img {
+		width: 80px;
 	}
 }
 
