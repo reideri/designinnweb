@@ -6,6 +6,7 @@
 	// Models
 	include_once 'models/routes.model.php';
 	include_once 'models/sections.model.php';
+	include_once 'models/template.model.php';
 
 
 	$template = TemplateController::Template();
