@@ -13,7 +13,11 @@
 			  		<div class="row">
 			  			<div class="col-12">
 			  				<h4><?php echo $pack['nombre']; ?></h4>
-			  				<h2>$<?php echo number_format($pack['precio']) ?> <small>/yr</small></h2>
+			  				<?php if ($pack['precio'] == 0): ?>
+			  					<h2>COTIZAR</h2>
+			  				<?php else: ?>
+			  					<h2>$<?php echo number_format($pack['precio']) ?> <small>/yr</small></h2>
+			  				<?php endif ?>
 			  			</div>
 			  			<div class="col-12">
 			  				<ul>
