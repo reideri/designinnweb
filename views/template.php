@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/slick.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/slick-theme.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/style.css">
+	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/style.caracteristic.css">
 	<script src="<?php echo $Route; ?>views/js/jquery.js"></script> 
 	<script src="<?php echo $Route; ?>views/js/slick.min.js"></script> 
 	<title>Diseño Web | DesignningWeb</title>
@@ -34,6 +35,7 @@
 				$route = $routes[0];
 			}
 
+			$caracteristicas = RouteModel::Directory($route, 'caracteristicas');
 			$servicios = RouteModel::Directory($route, 'servicios');
 
 		} else {
