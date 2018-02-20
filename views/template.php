@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<?php $Route = RouteModel::Route(); ?>
 	<link rel="icon" href="<?php echo $Route; ?>views/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet"> 
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/gridsystem.min.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/animate.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/themify-icons.css">

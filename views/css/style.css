@@ -710,7 +710,6 @@ section.servicios h2 {
 section.servicios h4 {
 	font-weight: 300;
 	font-size: 18px;
-	margin-bottom: 40px;
 }
 
 section.servicios .sideshow {
@@ -765,6 +764,26 @@ section.servicios .slideshow .options.slick-slide.slick-current.slick-center .co
 	background-color: #fff;
 	color: #6d435a;
 	border: 2px solid #6d435a;
+}
+
+@media screen and (min-width: 768px){
+	section.servicios .slideshow .options {
+		width: 100%;
+		padding: 0;
+	}
+
+	section.servicios .slideshow .options .container .row .col-12 h4 {
+		font-size: 15px;
+	}
+
+	section.servicios .slideshow .options .container .row .col-12 h2 {
+		font-size: 20px;
+	}
+
+	section.servicios .slideshow .options .container .row .col-12 ul li {
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
 }
 
 
@@ -901,6 +920,35 @@ section.servicios .slideshow .options.slick-slide.slick-current.slick-center .co
 
 	section.certificated img {
 		width: 80px;
+	}
+
+
+
+
+
+	/* PAGE SERVICIOS */
+	section.servicios .slideshow .options {
+		padding: 20px;
+	}
+
+	section.servicios .slideshow .options .container .row .col-12 h2 {
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (min-width: 1200px){
+	section.servicios .slideshow .options {
+		padding: 15px;
+	}
+
+	section.servicios .slideshow .options .container .row .col-12 h2 {
+		font-size: 40px;
+	}
+
+	section.servicios .slideshow .options .container .row .col-12 ul li {
+		margin-bottom: 10px;
+		font-size: 16px;
 	}
 }
 
