@@ -138,10 +138,23 @@ section.description-caracteristics .container .more-caracteristics .container h2
 
 	section.description-caracteristics .container .more-caracteristics {
 		margin-top: 440px;
+		transition: all 0.3s ease;
+	}
+
+	section.description-caracteristics .container .more-caracteristics:hover {
+		transform: scale(1.02);
 	}
 
 	section.description-caracteristics .container .more-caracteristics.mr-15 {
 		margin-top: 440px !important;
+	}
+
+	.left-5 {
+		left: -10px !important;
+	}
+
+	.right-5 {
+		right: -10px !important;
 	}
 
 }

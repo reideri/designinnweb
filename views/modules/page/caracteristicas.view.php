@@ -20,7 +20,7 @@
 	<div class="container">
 		<div class="row justify-content-between">
 			<div class="col-10 col-md-6 offset-1 offset-md-0">
-				<div class="about-this">
+				<div class="about-this left-5">
 					<img src="<?php echo $Route; ?>views/img/commet.png" alt="">
 
 					<div class="container">
@@ -55,7 +55,7 @@
 			</div>
 
 			<div class="col-10 col-md-6 offset-1 offset-md-0">
-				<div class="about-this">
+				<div class="about-this right-5">
 					<img src="<?php echo $Route; ?>views/img/security.png" alt="">
 
 					<div class="container">
