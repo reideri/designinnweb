@@ -11,6 +11,12 @@
 			}
 		}
 
+		static public function OwnRoute($route, $template, $ownRoute){
+			if ($route == $ownRoute) {
+				include 'views/modules/'.$template.'.view.php';
+			}
+		}
+
 		static public function ErrorRoute($route){
 			if ($route == null) {
 				include 'views/404.view.php';

@@ -26,6 +26,9 @@
 								$sections = SectionController::ctrShowSections($item, $value); 
 							?>
 							<?php foreach ($sections as $section => $li): ?>
+								<?php if ($li['section'] == 'NONE'): ?>
+									<?php continue; ?>
+								<?php endif ?>
 								<li><a href="<?php echo $li['route']; ?>"><?php echo $li['section']; ?></a></li>
 							<?php endforeach ?>
 						</ul>

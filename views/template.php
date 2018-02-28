@@ -37,6 +37,7 @@
 
 			$caracteristicas = RouteModel::Directory($route, 'caracteristicas');
 			$servicios = RouteModel::Directory($route, 'servicios');
+			$mail = RouteModel::OwnRoute($route, 'mail', 'b69a989affdd83fa2daff706ae23f79004ac52bea8ca0fd4fdce384346c5ee912f3a161c5eb8b3b5b33bcad5153cd4a3e28efd33ef3629b41b964ced2c057a58');
 
 		} else {
 			 include 'modules/slider.view.php';
