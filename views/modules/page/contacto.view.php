@@ -18,7 +18,7 @@
 
 <section class="contactForm">
 	<div class="container">
-		<form action="<?php echo $Route.'contacto'; ?>" method="post">
+		<form action="<?php echo $Route.'contacto'; ?>" method="post" name="contactForm">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-md-4">
@@ -46,7 +46,7 @@
 						<label for="">Mensaje</label>
 						<textarea name="" class="form-control" name="mensaje"></textarea>
 					</div>
-					<button class="btn btn-primary">ENVIAR MENSAJE</button>
+					<button class="btn btn-primary" id="submit">ENVIAR MENSAJE</button>
 				</div>
 			</div>
 		</form>

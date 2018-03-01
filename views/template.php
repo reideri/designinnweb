@@ -6,7 +6,7 @@
 	<?php $Route = RouteModel::Route(); ?>
 	<link rel="icon" href="<?php echo $Route; ?>views/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet"> 
-	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/gridsystem.min.css">
+	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/animate.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/themify-icons.css">
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/slick.css">
