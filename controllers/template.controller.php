@@ -11,4 +11,11 @@
 
 			return $reply;
 		}
+
+		static public function ctrHosting(){
+			$table = 'packages';
+			$reply = TemplateModel::mdlHostingService($table);
+
+			return $reply;
+		}
 	}

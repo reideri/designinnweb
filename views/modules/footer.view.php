@@ -11,6 +11,9 @@
 							$components = SectionController::ctrShowSections($item, $value) 
 						?>
 						<?php foreach ($components as $component => $page): ?>
+							<?php if ($page['section'] == 'NONE'): ?>
+								<?php continue; ?>
+							<?php endif ?>
 							<li><a href="<?php echo $page['route'] ?>"><?php echo $page['section']; ?></a></li>
 						<?php endforeach ?>
 					</ul>
@@ -58,6 +61,9 @@
 				</div>
 				<div class="col-12"><p>Copyright &copy; DIW. Todos Los Derechos Reservados</p></div>
 				<a href="https://icons8.com" class="credits">Icon pack by Icons8</a>
+				<div class="col-12" style="text-align: center;">
+					*Los precios se encuentran en Pesos Mexicanos (MXN), no incluyen IVA y se encuentran sujetos a cambios sin previo aviso.
+				</div>
 			</div>
 		</div>
 	</section>

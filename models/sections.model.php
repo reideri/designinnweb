@@ -18,4 +18,17 @@
 			$stmt->close();
 			$stmt = null;
 		}
+
+
+		static public function mdlShowInfo($table){
+			$stmt = Conection::conect()->prepare("SELECT * FROM $table ORDER BY id_$table DESC LIMIT 1");
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
+
+		static public function mdlShowFaqs($table, $direccion){
+			$stmt = Conection::conect()->prepare("SELECT * FROM $table WHERE direccion = $direccion");
+			$stmt->execute();
+			return $stmt->fetchAll();
+		}
 	}

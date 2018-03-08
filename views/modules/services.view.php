@@ -1,46 +1,25 @@
+<?php $services = TemplateController::ctrHosting(); ?>
+
 <section class="services">
 	<h2>CONOCE NUESTROS PLANES DE HOSTING</h2>
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-lg-4">
-				<article class="service">
-					<h3>PLAN STANDARD</h3>
-					<span class="price">899 <small>(Anual)</small></span>
-					<div class="feacture">
-						<p>1 Año de Dominio .com o .com.mx gratis</p>
-						<p>8 GB de Almacenamiento</p>
-						<p>30 Cuentas de Correo</p>
-						<p>Soporte Via Correo</p>
-					</div>
-					<a href="#" class="btn btn-outline-white">DETAILS</a>
-				</article>
-			</div>
-			<div class="col-12 col-lg-4">
-				<article class="service">
-					<h3>NEGOCIOS PLUS</h3>
-					<span class="price">1,499 <small>(Anual)</small></span>
-					<div class="feacture">
-						<p>1 Año de Dominio .com o .com.mx gratis</p>
-						<p>16 GB de Almacenamiento</p>
-						<p>30 Cuentas de Correo</p>
-						<p>Soporte Via Correo</p>
-					</div>
-					<a href="#" class="btn btn-outline-white">DETAILS</a>
-				</article>
-			</div>
-			<div class="col-12 col-lg-4">
-				<article class="service margin-bottom-none">
-					<h3>PLAN MASTER</h3>
-					<span class="price">2,599 <small>(Anual)</small></span>
-					<div class="feacture">
-						<p>1 Año de Dominio .com o .com.mx gratis</p>
-						<p>32 GB de Almacenamiento</p>
-						<p>30 Cuentas de Correo</p>
-						<p>Soporte Via Correo</p>
-					</div>
-					<a href="#" class="btn btn-outline-white">DETAILS</a>
-				</article>
-			</div>
+			<?php foreach ($services as $service => $host): ?>
+				<div class="col-12 col-lg-4">
+					<article class="service">
+						<h3><?php echo $host['nombre']; ?></h3>
+						<span class="price"><?php echo $host['precio'] ?> <small>(Anual)</small></span>
+						<div class="feacture">
+							<?php $opciones = json_decode($host['caracteristicas'], true); ?>
+								<p><?php echo $opciones[0]; ?></p>
+								<p><?php echo $opciones[1]; ?></p>
+								<p><?php echo $opciones[2]; ?></p>
+								<p><?php echo $opciones[3]; ?></p>
+						</div>
+						<a href="#" class="btn btn-outline-white">DETAILS</a>
+					</article>
+				</div>			
+			<?php endforeach ?>
 		</div>
 	</div>
 </section>

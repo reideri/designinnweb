@@ -8,13 +8,16 @@
 				<div class="row">
 					<div class="col-12 col-md-6">
 						<h2>Caracteristicas</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laborum impedit sint illum sapiente commodi, magnam eveniet dolor labore aperiam iste facere officiis quo veniam.</p>
+						<p>Llevamos al rededor de 10 años de experiencia trabajando con tecnologias de gran magnitud. Nos hemos capacitado para saber el como crear el mejor servicio de Dominio y Hosting de hoy.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<?php $caracteristicas = SectionController::ctrShowInfo('caracteristicas'); ?>
+<?php $caracteristica = $caracteristicas[0]; ?>
 
 <section class="description-caracteristics">
 	<div class="container">
@@ -25,7 +28,7 @@
 
 					<div class="container">
 						<h2>Velocidad de arquitectura</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facere expedita ullam eveniet corporis ipsam non, voluptatem sunt, omnis in, fuga minus ut amet sint et ex ad, iusto nobis.</p>
+						<p><?php echo $caracteristica['velocidad']; ?></p>
 
 						<div class="row">
 							<div class="col-12 col-md-6">
@@ -60,7 +63,7 @@
 
 					<div class="container">
 						<h2>Alta Seguridad de Conexión</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facere expedita ullam eveniet corporis ipsam non, voluptatem sunt, omnis in, fuga minus ut amet sint et ex ad, iusto nobis.</p>
+						<p><?php echo $caracteristica['seguridad']; ?></p>
 
 						<div class="row">
 							<div class="col-12 col-md-6">
@@ -99,7 +102,7 @@
 
 					<div class="container">
 						<h2>Nuevas Tecnologias</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facere expedita ullam eveniet corporis ipsam non, voluptatem sunt, omnis in, fuga minus ut amet sint et ex ad, iusto nobis.</p>
+						<p><?php echo $caracteristica['tecnologias']; ?></p>
 					</div>
 				</div>
 			</div>
@@ -110,7 +113,7 @@
 
 					<div class="container">
 						<h2>Potente Almacenamiento</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facere expedita ullam eveniet corporis ipsam non, voluptatem sunt, omnis in, fuga minus ut amet sint et ex ad, iusto nobis.</p>
+						<p><?php echo $caracteristica['almacenamiento']; ?></p>
 					</div>
 				</div>
 			</div>
@@ -122,7 +125,7 @@
 
 					<div class="container">
 						<h2>Migración de Versiones</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facere expedita ullam eveniet corporis ipsam non, voluptatem sunt, omnis in, fuga minus ut amet sint et ex ad, iusto nobis.</p>
+						<p><?php echo $caracteristica['migracion']; ?></p>
 					</div>
 				</div>
 			</div>

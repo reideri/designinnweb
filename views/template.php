@@ -16,7 +16,11 @@
 	<link rel="stylesheet" href="<?php echo $Route; ?>views/css/style.contact.css">
 	<script src="<?php echo $Route; ?>views/js/jquery.js"></script> 
 	<script src="<?php echo $Route; ?>views/js/slick.min.js"></script> 
-	<title>Diseño Web | DesignningWeb</title>
+	<?php if (!empty($_GET['route'])): ?>
+		<title><?php echo $_GET['route']; ?> | DesignningWeb</title>
+	<?php else: ?>
+		<title>Diseño Web | DesignningWeb</title>	
+	<?php endif ?>
 </head>
 <body>
 	<?php include 'modules/header.view.php'; ?>

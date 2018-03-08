@@ -58,6 +58,10 @@ ul, ol {
 	border: 2px solid transparent;
 }
 
+.btn-primary:disabled {
+	opacity: 0.6;
+}
+
 .btn-primary:hover {
 	background-color: transparent;
 	color: #6d435a;
@@ -725,6 +729,7 @@ section.servicios h2 {
 section.servicios h4 {
 	font-weight: 300;
 	font-size: 18px;
+	text-transform: uppercase;
 }
 
 section.servicios .sideshow {

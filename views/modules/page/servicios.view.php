@@ -22,15 +22,13 @@
 			  			<div class="col-12">
 			  				<ul>
 			  					<?php 
-			  						$JSONpackages = json_decode($pack['caracteristicas'], true);
+			  						$JSONpack = $pack['caracteristicas'];
+			  						$JSONpack = json_decode($JSONpack, true);
 			  					?>
-			  					<?php foreach ($JSONpackages as $JSONpackage => $JSONpack): ?>
-			  						<li><?php echo $JSONpack['uno']; ?></li>
-			  						<li><?php echo $JSONpack['dos']; ?></li>
-			  						<li><?php echo $JSONpack['tres']; ?></li>
-			  						<li><?php echo $JSONpack['cuatro']; ?></li>
-			  					<?php endforeach ?>
-			  					
+			  						<li><?php echo $JSONpack[0]; ?></li>
+			  						<li><?php echo $JSONpack[1]; ?></li>
+			  						<li><?php echo $JSONpack[2]; ?></li>
+			  						<li><?php echo $JSONpack[3]; ?></li>			  					
 			  				</ul>
 			  			</div>
 			  			<div class="col-12">

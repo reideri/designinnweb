@@ -23,30 +23,30 @@
 				<div class="row">
 					<div class="col-12 col-md-4">
 						<label for="">Nombre</label>
-						<input type="text" class="form-control" name="nombre">
+						<input type="text" class="form-control" name="nombre" id="inputs">
 					</div>
 					<div class="col-12 col-md-4">
 						<label for="">Email</label>
-						<input type="text" class="form-control" name="email">
+						<input type="email" class="form-control" name="email" id="inputs">
 					</div>
 
 					<div class="col-12 col-md-4">
 						<label for="" class="t300">Website (opcional)</label>
-						<input type="text" class="form-control" name="website">
+						<input type="text" class="form-control" name="website" id="inputs">
 					</div>
 					<div class="col-12 col-md-6">
 						<label for="">Compañia</label>
-						<input type="text" class="form-control" name="company">
+						<input type="text" class="form-control" name="company" id="inputs">
 					</div>
 					<div class="col-12 col-md-6">
 						<label for="">Telefono</label>
-						<input type="text" class="form-control" name="telefono">
+						<input type="text" class="form-control" name="telefono" id="inputs">
 					</div>
 					<div class="col-12">
 						<label for="">Mensaje</label>
-						<textarea name="" class="form-control" name="mensaje"></textarea>
+						<textarea name="" class="form-control" name="mensaje" id="inputs"></textarea>
 					</div>
-					<button class="btn btn-primary" id="submit">ENVIAR MENSAJE</button>
+					<button class="btn btn-primary" id="submit" disabled="">ENVIAR MENSAJE</button>
 				</div>
 			</div>
 		</form>

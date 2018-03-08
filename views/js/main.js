@@ -40,6 +40,39 @@ $(document).ready(function(){
 
 	});
 
+// Contacto 
+$('.form-control').focusin(function(){
+	if ($(this).val().length > 0) {
+		$(this).css({"border": "2px solid #007d75"});
+	}
+});
+
+$('.form-control').focusout(function(){
+
+	var input = $(this).val().length;
+
+	if (input == 0) {
+		$(this).addClass('errorInput');
+		$(this).removeClass('successInput');
+	}
+
+	if (input > 0) {
+		$(this).removeClass('errorInput');
+		$(this).addClass('successInput');
+	}
+
+	// Validación del formulario
+	var validate = $('form').find('.errorInput').length;
+	var fullFields = $('form').find('.successInput').length;
+
+	if (validate > 0) {
+		$('#submit').prop('disabled', true);
+	}
+
+	if (validate == 0 && fullFields == 6) {
+		$('#submit').prop('disabled', false);
+	}  
+});
 
 
 
@@ -70,6 +103,8 @@ $(document).ready(function(){
 	    }
 	  ]
 });
+
+
 
 
 

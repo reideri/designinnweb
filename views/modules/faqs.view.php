@@ -1,129 +1,60 @@
+<?php $faqsIzq = SectionController::ctrShowFaqs(1); ?>
+<?php $faqsCen = SectionController::ctrShowFaqs(2); ?>
+<?php $faqsDer = SectionController::ctrShowFaqs(3); ?>
 <section class="faqs animated fadeIn">
 	<div class="container">
 		<h2>PREGUNTAS FRECUENTES</h2>
 		<div class="row">
 			<div class="col-12 col-lg-4">
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
+				<?php foreach ($faqsIzq as $faqIzq => $faqI): ?>
+					<div class="question d-flex justify-content-center">
+						<div class="box">
+							<span class="faqs-box"></span>
+						</div>
+						<div class="question-box">
+							<?php echo $faqI['pregunta']; ?>
+						</div>
 
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
+						<div class="answer">
+							<?php echo $faqI['respuesta']; ?>
+						</div>
 					</div>
-				</div>
-
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
-
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
-					</div>
-				</div>
-
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
-
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
-					</div>
-				</div>
+				<?php endforeach ?>
 			</div>
 
 			<div class="col-12 col-lg-4">
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
+				<?php foreach ($faqsCen as $faqCen => $faqC): ?>
+					<div class="question d-flex justify-content-center">
+						<div class="box">
+							<span class="faqs-box"></span>
+						</div>
+						<div class="question-box">
+							<?php echo $faqC['pregunta']; ?>
+						</div>
 
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
+						<div class="answer">
+							<?php echo $faqC['respuesta']; ?>
+						</div>
 					</div>
-				</div>
-
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
-
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
-					</div>
-				</div>
-
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
-
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
-					</div>
-				</div>
+				<?php endforeach ?>
 			</div>
 
 
 			<div class="col-12 col-lg-4 margin-bottom-none">
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
+				<?php foreach ($faqsDer as $faqDer => $faqD): ?>
+					<div class="question d-flex justify-content-center">
+						<div class="box">
+							<span class="faqs-box"></span>
+						</div>
+						<div class="question-box">
+							<?php echo $faqD['pregunta']; ?>
+						</div>
 
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
+						<div class="answer">
+							<?php echo $faqD['respuesta']; ?>
+						</div>
 					</div>
-				</div>
-
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
-
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
-					</div>
-				</div>
-
-				<div class="question d-flex justify-content-center">
-					<div class="box">
-						<span class="faqs-box"></span>
-					</div>
-					<div class="question-box">
-						¿Lorem ipsum dolor sit amet?
-					</div>
-
-					<div class="answer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim iure nesciunt facere totam ipsum dolorem, praesentium ad, consequuntur maiores, temporibus impedit vel incidunt amet ipsa quas non quis vero cum?
-					</div>
-				</div>
+				<?php endforeach ?>
 			</div>
 
 		</div>
